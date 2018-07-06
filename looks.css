@@ -1,7 +1,7 @@
 html, body {
   text-align: center;
   min-width: 260px;
-  color: #810c0c;
+  background-color: #810c0c;
 }
 #main {
   margin: 30px auto;
@@ -9,7 +9,48 @@ html, body {
   border: 0px solid;
   border-radius: 5px;
   background: #000000;
+  color: #fdfef1;
+  font-family: 'Courier New';
 }
-#title, #headline, h3 {
-  font-family: palatino, monospace;
+#title {
+  font-family: "Palatino";
+  font-size: 40px;
 }
+#headline, h3 {
+  font-family: 'Palatino';
+  font-size: 32px;
+}
+#img-div {
+  margin: -5px;
+  margin-top: 25px;
+  width: 100%;
+  border: 5px solid #810c0c;
+  background: #810c0c;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#img-caption {
+  margin: 15px;
+}
+a {
+  text-decoration: none;
+  color: #810c0c;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+li {
+  margin: 10px;
+}
+blockquote {
+  margin: 50px;
+  font-size: 24px;
+  font-style: italic;
+}
+/*courier new
